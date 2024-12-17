@@ -34,8 +34,9 @@
         <span class="ms-1 font-weight-bold">Gestion de Service</span>
       </a>
     </div>
-    <hr class="horizontal dark mt-0">
-    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+        <hr class="horizontal dark mt-0">
+    <div  id="sidenav-collapse-main">    <hr class="horizontal dark mt-0">
+    <div  id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link " href="{{path('dashboardService')}}">
@@ -67,8 +68,8 @@
 
                                         <li class="nav-item">
           <a class="nav-link  " href={{path('dashboard')}}>
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                    <i class="fas fa-plus-circle text-dark text-sm opacity-10"></i>
+                       <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+                    <i class="bi bi-door-open text-dark text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Gestion de foyer</span>
           </a>
@@ -79,7 +80,7 @@
                                         <li class="nav-item">
           <a class="nav-link  " href={{path('dashboardTransport')}}>
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                    <i class="fas fa-plus-circle text-dark text-sm opacity-10"></i>
+                    <i class="bi bi-car-front text-dark text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Gestion de transport </span>
           </a>
@@ -90,7 +91,7 @@
                                         <li class="nav-item">
           <a class="nav-link  " href={{path('dashboardService')}}>
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                    <i class="fas fa-plus-circle text-dark text-sm opacity-10"></i>
+                    <i class="bi bi-house-door text-dark text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Gestion de service</span>
           </a>
@@ -104,6 +105,15 @@
               <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Profil</span>
+          </a>
+        </li>
+
+                <li class="nav-item">
+          <a class="nav-link " href={{path('app_sign_in')}}>
+            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="ni ni-single-copy-04 text-dark text-sm opacity-10"></i>
+            </div>
+            <span class="nav-link-text ms-1">Se déconnecter</span>
           </a>
         </li>
       </ul>

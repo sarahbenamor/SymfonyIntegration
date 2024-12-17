@@ -4,8 +4,7 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <img rel="apple-touch-icon" sizes="76x76" src="{{ asset('img\apple-icon.png') }}">
-  <img src="{{asset('img\favicon.png')}}" alt="Author picture" />
+
   <title> Gestion de Foyer </title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <link href="https://demos.creative-tim.com/argon-dashboard-pro/assets/css/nucleo-icons.css" rel="stylesheet" />
@@ -35,7 +34,7 @@
       </a>
     </div>
     <hr class="horizontal dark mt-0">
-    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+    <div  id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" href={{path('dashboard')}}>
@@ -86,7 +85,7 @@
                                         <li class="nav-item">
           <a class="nav-link  " href={{path('dashboard')}}>
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                    <i class="fas fa-plus-circle text-dark text-sm opacity-10"></i>
+                    <i class="bi bi-door-open text-dark text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Gestion de foyer</span>
           </a>
@@ -97,7 +96,7 @@
                                         <li class="nav-item">
           <a class="nav-link  " href={{path('dashboardTransport')}}>
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                    <i class="fas fa-plus-circle text-dark text-sm opacity-10"></i>
+                    <i class="bi bi-car-front text-dark text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Gestion de transport </span>
           </a>
@@ -108,7 +107,7 @@
                                         <li class="nav-item">
           <a class="nav-link  " href={{path('dashboardService')}}>
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                    <i class="fas fa-plus-circle text-dark text-sm opacity-10"></i>
+                    <i class="bi bi-house-door text-dark text-sm opacity-10"></i>
             </div>
             <span class="nav-link-text ms-1">Gestion de service</span>
           </a>
